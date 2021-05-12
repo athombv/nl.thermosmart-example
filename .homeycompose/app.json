@@ -1,0 +1,23 @@
+{
+  "id": "nl.thermosmart",
+  "version": "4.1.0",
+  "sdk": 3,
+  "brandColor": "#FF5121",
+  "compatibility": ">=5.0.0",
+  "name": {
+    "en": "ThermoSmart"
+  },
+  "description": {
+    "en": "The smart Wi-Fi thermostat",
+    "nl": "De slimme Wi-Fi thermostaat"
+  },
+  "author": {
+    "name": "Athom B.V.",
+    "email": "support@athom.com"
+  },
+  "category": "climate",
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  }
+}

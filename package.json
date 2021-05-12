@@ -1,0 +1,17 @@
+{
+  "name": "nl.thermosmart",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/nl.thermosmart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athombv/nl.thermosmart/issues"
+  },
+  "homepage": "https://github.com/athombv/nl.thermosmart#readme",
+  "dependencies": {
+    "homey-oauth2app": "^3.1.1"
+  }
+}

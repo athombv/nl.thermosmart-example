@@ -1,0 +1,68 @@
+{
+	"triggers": [
+		{
+			"id": "paused",
+			"title": {
+				"en": "Has been paused",
+				"nl": "Is gepauzeerd"
+			}		
+		},
+		{
+			"id": "unpaused",
+			"title": {
+				"en": "Has been resumed",
+				"nl": "Is niet meer gepauzeerd"
+			}		
+		}
+	],
+	"conditions": [
+		{
+			"id": "is_paused",
+			"title": {
+				"en": "Is !{{|not}} paused",
+				"nl": "Is !{{|niet}} gepauzeerd"
+			}
+		}
+	],
+	"actions": [
+		{
+			"id": "set_pause_true",
+			"title": {
+				"en": "Pause ThermoSmart",
+				"nl": "Pauzeer ThermoSmart"
+			}
+		},
+		{
+			"id": "set_pause_false",
+			"title": {
+				"en": "Resume ThermoSmart",
+				"nl": "Hervat ThermoSmart"
+			}
+		},
+		{
+			"id": "set_outside_temperature",
+			"title": {
+				"en": "Set outside temperature",
+				"nl": "Zet buiten temperatuur"
+			},
+			"args": [
+				{
+					"name": "outside_temperature",
+					"type": "range",
+					"min": -50,
+					"max": 50,
+					"step": 0.5,
+					"label": " °C",
+					"labelDecimals": 1
+				}
+			]
+		},
+		{
+			"id": "unset_outside_temperature",
+			"title": {
+				"en": "Unset outside temperature",
+				"nl": "Zet buiten temperatuur terug"
+			}
+		}
+	]
+}
